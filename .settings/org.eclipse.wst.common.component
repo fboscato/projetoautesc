@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="SistemaTeste">
+    <wb-module deploy-name="autesc">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent"/>
-        <property name="context-root" value="SistemaTeste"/>
-        <property name="java-output-path" value="/SistemaTeste/target/classes"/>
+        <property name="java-output-path" value="/autesc/target/classes"/>
+        <property name="context-root" value="autesc"/>
     </wb-module>
 </project-modules>
