@@ -6,6 +6,7 @@ cursoModulo.controller("cursoController", function($scope, $http) {
 	urlCurso = 'http://localhost:8081/ProjetoAutesc/rest/cursos';
 	urlVeiculo = 'http://localhost:8081/ProjetoAutesc/rest/veiculos';
 	
+	
 	$scope.listarCursos = function() {
 		$http.get(urlCurso).success(function (cursos) {
 			$scope.cursos = cursos;	
