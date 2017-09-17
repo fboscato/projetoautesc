@@ -12,8 +12,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlRootElement;
 
-
-@XmlRootElement
+//Serializable
+@XmlRootElement  
 @Entity
 @Table(name="curso")
 public class CursoModel implements Serializable {

@@ -53,8 +53,6 @@ veiculoModulo.controller("veiculoController", function($scope, $http) {
 					alert(erro);
 				});	
 		}
-		
-
 	}
 	
 	$scope.excluir = function() {

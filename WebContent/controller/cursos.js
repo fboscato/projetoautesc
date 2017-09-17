@@ -47,8 +47,7 @@ cursoModulo.controller("cursoController", function($scope, $http) {
 			//console.log("POST - codigo vazio = novo registro");
 		   $http.post(urlCurso,$scope.curso).success(function(curso) {
 		        $scope.cursos.push($scope.curso);
-		        $scope.listarCursos();
-		        
+		        $scope.listarCursos();		        
 		        $scope.limparCampos();
 		   		}).error (function (erro) {
 				alert(erro);
